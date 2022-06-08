@@ -340,9 +340,9 @@ body{
       max-width: 970px;
    }
 
-   .but_p, .but_h {
+   .buttom_container {
       max-width: 970px;
-      padding: 0 15px;
+      margin: 0 auto;
    }
 
 }
@@ -354,22 +354,31 @@ body{
       max-width: 750px;
    }
    
-   .but_p, .but_h {
-      max-width: 750px;
-      padding: 0 15px;
+   .img .title{
+      width: 100%;
    }
+
+   .buttom_container {
+      max-width: 750px;
+      margin: 0 auto;
+   }
+
 
 }
 
 @media(max-width:767px){
 
    .container {
-      max-width: 750px;
+      max-width: none;
+   }
+
+   .img .title{
+      width: 100%;
    }
    
-   .but_p, .but_h {
+   .buttom_container {
       max-width: none;
-      padding: 0 15px;
+      margin: 0 auto;
    }
 
 }
